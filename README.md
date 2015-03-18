@@ -36,6 +36,12 @@ Howto add notify2tox to your friendlist:
 echo TOXID > ./request/in
 ```
 
+To test your settings use the command notify-send:
+
+```bash
+notify-send "Hello World"
+```
+
 Some other useful commands:
 
 ```bash
