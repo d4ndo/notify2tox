@@ -1,5 +1,5 @@
 # notify2tox
-A bash script to forward dbus notify to tox.
+A bash script to forward dbus notification to tox.
 
 #Getting started:
 
@@ -23,14 +23,15 @@ Start the bot:
 ```bash
 cd notify2tox
 
-# start ratox client first
-ratox notify2tox
-# start the bash script
+# start the ratox client first
+ratox notify
+
+# start notify2tox
 # report every notificatio to TOXID
-./notify2tox TOXID
+./notify2tox.sh TOXID
 ```
 
-Howto add notify2tox to your friendlist:
+To add notify2tox to your friendlist, do this:
 
 ```bash
 echo TOXID > ./request/in
