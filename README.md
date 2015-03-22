@@ -27,7 +27,7 @@ cd notify2tox
 ratox notify
 
 # start notify2tox
-# report every notificatio to TOXID
+# report every notification to TOXID
 ./notify2tox.sh TOXID
 ```
 
