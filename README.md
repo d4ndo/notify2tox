@@ -1,5 +1,6 @@
 # notify2tox
-A bash script to forward dbus notification to tox.
+Forward dbus notification to some tox messenger.
+Could be triggerd by any application or just notify-send in some script.
 
 #Getting started:
 
